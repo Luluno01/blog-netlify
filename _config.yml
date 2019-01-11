@@ -111,3 +111,7 @@ live2d:
   react:
     opacityDefault: 1.0
     opacityOnHover: 0.7
+
+# Math
+math:
+  engine: 'mathjax'
