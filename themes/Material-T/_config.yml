@@ -1,4 +1,4 @@
-#---------------------------
+﻿#---------------------------
 # Material-T
 # 一款Material Design风格的HEXO主题
 # Author: invom
@@ -87,4 +87,4 @@ about_icons:
 # 底部信息
 # Footer
 #---------------------------
-footer: <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><b>someone.drink(new HotWater)</b> <span id="busuanzi_container_site_pv">Visits: <span id="busuanzi_value_site_pv"></span></span>
+footer: "<b style=\"padding-right: 2em;\">someone.drink(new HotWater)</b><script async src=\"//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js\"></script><span id=\"busuanzi_container_site_pv\">Visits: <span id=\"busuanzi_value_site_pv\"></span></span>"
