@@ -20,9 +20,9 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.0x00000000.tk
 root: /
-permalink: :year/:month/:day/:title/
+permalink: article_:id/  # :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -35,6 +35,8 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
     - "*admin/*"
+    - "*.txt"
+    - "*.xml"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -116,3 +118,16 @@ live2d:
 # Math
 math:
   engine: 'mathjax'
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+# Nofollow
+nofollow:
+  enable: true
+  exclude:
+    - blog.0x00000000.tk
+    - blog.untitled.vip

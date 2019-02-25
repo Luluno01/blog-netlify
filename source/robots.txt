@@ -1,0 +1,8 @@
+er-agent: * Allow: /
+Allow: /archives/
+Disallow: /vendors/
+Disallow: /categories/
+
+
+Sitemap: http://blog.0x00000000.tk/sitemap.xml
+Sitemap: https://blog.0x00000000.tk/baidusitemap.xml
